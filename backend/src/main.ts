@@ -31,7 +31,7 @@ async function bootstrap() {
       saveUninitialized: false,
     })
   );
-  /* CORS, CSP и др. заголовки */
+  /* CSP и др. заголовки */
   app.use(helmet());
   app.useGlobalInterceptors(new ClassSerializerInterceptor(app.get(Reflector)));
   await app.listen(port);
