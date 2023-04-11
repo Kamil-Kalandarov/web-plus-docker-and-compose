@@ -5,7 +5,7 @@ import { WishList } from "./wishlists/entities/wishList.entity";
 
 /* ФАЙЛ КОНФИГУРАЦИИ ДЛЯ ПОДКЛЮЧЕНИЯ ПРИЛОЖЕНИЯ К БД (данные берутся из файла .env) */
 export default () => ({
-  port: parseInt(process.env.PORT, 10) || 4000,
+  port: parseInt(process.env.PORT, 10) || 3000,
   database: {
     type: "postgres",
     host: process.env.POSTGRES_HOST,
