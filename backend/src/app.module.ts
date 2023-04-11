@@ -20,7 +20,7 @@ import { AuthModule } from "./auth/auth.module";
 import { TokenModule } from "./auth/token/token.module";
 
 const shcema = Joi.object({
-  port: Joi.number().integer().default(3000),
+  port: Joi.number().integer().default(4000),
   database: Joi.object({
     host: Joi.string()
       .pattern(/postgres:\/\/[a-zA-Z]/)
