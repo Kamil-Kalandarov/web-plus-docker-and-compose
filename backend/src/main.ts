@@ -13,6 +13,7 @@ async function bootstrap() {
   const app = await NestFactory.create/* <NestExpressApplication> */(AppModule, {
     cors: true, 
   });
+  app.enableCors();
   app.useGlobalPipes(new ValidationPipe({ transform: true, whitelist: true }));
   /* настройка кэширования на клиенте. Deafault - слабый Etag(только семантические изменения) */
   /* app.set("etag", etag); */
