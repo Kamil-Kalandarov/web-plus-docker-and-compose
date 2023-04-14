@@ -41,7 +41,7 @@ const shcema = Joi.object({
     ConfigModule.forRoot({
       load: [configuration],
       isGlobal: true,
-      validationSchema: shcema,
+      /* validationSchema: shcema, */
     }),
     /* 
       ПОДКЛЮЧЕНИЕ БД К ПРИЛОЖЕНЮ 

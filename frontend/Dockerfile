@@ -13,7 +13,7 @@ COPY . .
 RUN npm run build
 
 # базовый образ для отображения статичного фронта через nginx
-FROM nginx:latest AS production
+FROM nginx:latest AS frontend
 # рабочая директория внутри образа, где будет находится приложение
 WORKDIR /app
 # копирование папки build из уже собранного образа builder выше в nginx
