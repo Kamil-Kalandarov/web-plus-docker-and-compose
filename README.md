@@ -36,7 +36,7 @@ src="https://img.shields.io/badge/React-696969?style=for-the-badge&logo=React&lo
   docker-compose up --build -d
 ```
 
-## <a name="demo-link">**ссылка на Demo проекта** [Mesto](https://kpd.kamil.nomoredomains.monster/signin)</a>
+## <a name="demo-link">**ссылка на Demo проекта** [KupiPodariDay](https://kpd.kamil.nomoredomains.monster/signin)</a>
 ## IP: 158.160.34.178
 ## API: api.kpd.kamil.nomoredomains.monster
 ## Frontend: kpd.kamil.nomoredomains.monster
