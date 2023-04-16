@@ -48,6 +48,8 @@ volumes:
 
 networks: 
   backend:
+    driver: bridge
+    internal: true
 
   
   
