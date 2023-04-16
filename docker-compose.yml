@@ -30,7 +30,7 @@ services:
     volumes: 
       - pg_data:/var/lib/postgresql/data
     networks: 
-      - backend158.160.36.86
+      - backend
 
   adminer:
     container_name: 'adminer'
@@ -48,8 +48,6 @@ volumes:
 
 networks: 
   backend:
-    driver: bridge
-    internal: true
 
   
   
